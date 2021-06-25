@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ListPatientController">
+   <children>
+      <Text layoutX="243.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des patients" />
+      <ListView fx:id="list" layoutX="45.0" layoutY="106.0" prefHeight="363.0" prefWidth="669.0" />
+   </children>
+</AnchorPane>
